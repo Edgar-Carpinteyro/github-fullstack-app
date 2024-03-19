@@ -4,17 +4,18 @@
   background-color: yellowgreen;
 }
 
-.main-page{
+.main-page {
   background-color: yellowgreen;
-  width: 100vw; 
+  width: 100vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: yellowgreen 1px solid;
 }
 
-.full-page{
+.full-page {
   height: 100vh;
 }
 
-nav{
+nav {
   background-color: black;
   display: flex;
   justify-content: space-around;
@@ -23,31 +24,33 @@ nav{
   padding: 1rem;
 }
 
-.search-label{
-  font-size:xx-large;
+.search-label {
+  font-size: xx-large;
 }
 
-.submit-input{
+.submit-input {
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 
-.search-button{
+.search-button {
   margin-left: 2rem;
   border-width: 2px;
-  border-color: #5323D7;
-  background-color: #FAE712;
+  border-color: #5323d7;
+  background-color: #fae712;
 }
 
-.sort-buttons{
+.sort-buttons {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding: 20px;
 }
 
-svg{
-  color: #FAE712;
+svg {
+  color: #fae712;
 }
 
-
+.repo-bullet-point {
+  list-style-type: none;
+}

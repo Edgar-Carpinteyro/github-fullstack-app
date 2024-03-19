@@ -3,7 +3,7 @@ import Repo from "./Repo";
 const Repos = ({ repos }) => {
 	return (
         <div className="main-page">
-            <ol>
+            <ol className="repo-bullet-point">
                 {repos.map((repo) => (
                     <Repo key={repo.id} repo={repo} />
                 ))}
