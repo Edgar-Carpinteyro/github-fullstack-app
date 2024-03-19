@@ -37,8 +37,6 @@ npm i -save express-session
 npm i -save mongoose
 npm i -save passport
 npm i -save passport-github2
-npm i -save
-npm i -save
 ```
 
 ### Install the following packages as developer dependencies to the project by running
