@@ -5,7 +5,10 @@
 }
 
 .main-page {
-  background-color: yellowgreen;
+  background-color:yellowgreen;
+  /* background-image: url("/public/github.png");
+  background: size 20%; */
+  background-repeat:unset;
   width: 100vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: yellowgreen 1px solid;
